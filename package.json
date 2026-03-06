@@ -1,0 +1,11 @@
+{
+    "name": "insurancelight-monorepo",
+    "private": true,
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "dev": "pnpm --parallel run dev",
+        "build": "pnpm --recursive run build"
+    }
+}

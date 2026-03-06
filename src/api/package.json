@@ -1,0 +1,22 @@
+{
+    "name": "@insurancelight/api",
+    "version": "1.0.0",
+    "private": true,
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "fastify": "^4.20.0",
+        "cors": "^2.8.5",
+        "@fastify/cors": "^8.3.0",
+        "@insurancelight/shared": "workspace:*",
+        "@insurancelight/db": "workspace:*"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "tsx": "^4.0.0",
+        "@types/node": "^20.0.0"
+    }
+}
